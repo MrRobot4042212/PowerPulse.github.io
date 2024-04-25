@@ -469,3 +469,7 @@ td input{
 td *{
     font-family: 'Exo_2';
 }
+
+svg{
+    color: black;
+}
