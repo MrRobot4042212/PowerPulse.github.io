@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerPulse</title>
+    <title>Weekly Power Planner</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./data/img/faviconV.png" type="image/x-icon">
 </head>
@@ -13,7 +13,7 @@
         <h1>-The companion that gives you all the <span style="color: #09de6f;">power</span>-</h1>
     </header>
     <nav id="nav">
-        <li><a href="#body">Home</a></li>
+        <li><a href="./index.html">Home</a></li>
         <li><a class="dropdown">Tools</a>
           <div id="dropdown" class="dropdown-content dropdown-content-hidden" >
               <a class="submenu-link" href="./WPP.html">
@@ -59,85 +59,56 @@
         <li><a href="./register.html">Register</a></li>
     </nav>
 
-    <main>
+    <main class="main-wpp">
+        <form action="" method="post">
+            <table class="greenTable">
+                <thead>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                </thead>
 
-        <section class="row">
-            <div class="col1">
-                <img src="./data/img/rows/rutinas.png" alt="">
-            </div>
-            <div class="col2">
-                <h1>Weekly <span style="color: #09de6f;">Power</span> Planner</h1>
-                <p>
-                  "Introducing our Weekly Exercise Planner, your ultimate companion for staying on track with your fitness goals! Designed to streamline your fitness routine, this planner offers a comprehensive layout to map out your workouts for the entire week ahead. Whether you're a seasoned gym-goer, a yoga enthusiast, or someone just starting their fitness journey, this planner caters to all levels and preferences.
+                <tbody>
+                <tr>
+                    <td>
+                        <select name="legs" id="legs">
+                            <option value="default" selected>-->Legs<--</option>
+                            <option value="quadriceps">Quadriceps</option>
+                            <option value="femoral">Femoral</option>
+                            <option value="abductors">Abductors</option>
+                            <option value="twins">Twins</option>
+                            <option value="glutes">Glutes</option>
+                            <option value="none">none</option>
+                        </select>
+                        <select name="" id="legs">
+                            <option value="default" selected>-->Legs<--</option>
+                            <option value="quadriceps">Quadriceps</option>
+                            <option value="femoral">Femoral</option>
+                            <option value="abductors">Abductors</option>
+                            <option value="twins">Twins</option>
+                            <option value="glutes">Glutes</option>
+                            <option value="none">none</option>
+                        </select>
+                    </td>
 
-                </p>
-            </div>
-        </section>
-
-        <section class="row2">
-          <div class="col1">
-            <h1><span style="color: #09de6f;">Power </span>Workout Exercises</h1>
-              <p>
-              "Boost your workout routine with our tool. Discover a variety of exercises tailored to your goals and fitness levels. Power up your training and achieve your fitness milestones!"
-              </p>
-          </div>
-          <div class="col2">
-            <img src="./data/img/rows/ejercicios.png" alt="">
-        </div>
-      </section>
-
-        <section class="row">
-          <div class="col1">
-            <img src="./data/img/rows/calculadoraKcal.png" alt="">
-          </div>
-          <div class="col2">
-            <h1>Pulse <span style="color: #09de6f;">K</span>cal Calculator</h1>
-            <p>
-              "Introducing our Daily Calorie Calculator, your go-to solution for effortlessly managing your nutritional intake and achieving your health and wellness goals! This intuitive tool simplifies the process of determining your daily calorie needs, empowering you to make informed decisions about your diet and lifestyle.
-            </p>
-          </div>
-
-        </section>
-
-        <section class="row2">
-
-          <div class="col1">
-            <h1>Pulse <span style="color: #09de6f;">B</span>MR Calculator</h1>
-              <p>
-                "Introducing our Basal Metabolic Rate (BMR) Calculator, the key to unlocking your body's unique energy expenditure and optimizing your nutrition and fitness journey! This powerful tool provides an accurate estimate of your Basal Metabolic Rate, the number of calories your body needs to maintain its basic functions at rest
-              </p>
-          </div>
-          <div class="col2">
-            <img src="./data/img/rows/calculadoraTmb.png" alt="">
-        </div>
-      </section>
-
-    <section class="row">
-        <div class="col1">
-          <img src="./data/img/rows/rutinaComida.png" alt="">
-        </div>
-        <div class="col2">
-          <h1><span style="color: #09de6f;">Power</span> Food Planner</h1>
-          <p>
-          "Streamline your nutrition with our Weekly Meal Planner. Organize your breakfasts, lunches, dinners, and snacks for the entire week easily and efficiently. Start planning your meals smartly and enjoy healthier, stress-free eating!"
-          </p>
-        </div>
-
-    </section>
-
-    <section class="row2">
-      <div class="col1">
-        <h1><span style="color: #09de6f;">Power</span> Discuss Forum</h1>
-        <p>
-        "Streamline your nutrition with our Weekly Meal Planner. Organize your breakfasts, lunches, dinners, and snacks for the entire week easily and efficiently. Start planning your meals smartly and enjoy healthier, stress-free eating!"
-        </p>
-      </div>
-        <div class="col2">
-            <img src="./data/img/rows/forum.png" alt="">
-        </div>
-    </section>
-
-
+                    <td><input type="text" name="tuesday" id="tuesday"></td>
+                    <td><input type="text" name="wednesday" id="wednesday"></td>
+                    <td><input type="text" name="thrusday" id="thrusday"></td>
+                    <td><input type="text" name="friday" id="friday"></td>
+                    <td><input type="text" name="saturday" id="saturday"></td>
+                    <td><input type="text" name="sunday" id="sunday"></td>
+                </tr>
+                <tr>
+                </tbody>
+                </tr>
+                </table>
+        </form>
     </main>
 
     <footer>
